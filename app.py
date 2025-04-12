@@ -8,7 +8,7 @@ from io import BytesIO
 STOCKS = {
     "ZAR/ USD (ZARUSD=X)": "ZARUSD=X",
     "ZAR/ AUD (ZARAUD=X)": "ZARAUD=X",
-    "ZAR/ GBD (ZARGBD=X)": "ZARGBD=X",
+    "ZAR/ GBP (ZARGBP=X)": "ZARGBP=X",
     "ZAR/ EUR (ZAREUR=X)": "ZAREUR=X",
     "ZAR/ EUR (ZAREUR=X)": "ZAREUR=X",
     "ZAR/ HKD (ZARHKD=X)": "ZARHKD=X"
