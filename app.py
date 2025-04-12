@@ -35,7 +35,7 @@ if st.button("Fetch Data"):
             # Plot the time series data
             fig, ax = plt.subplots(figsize=(10, 5))
             ax.plot(df.index, df["Open"], label="Opening Price", linewidth=1, color="orange")
-            ax.plot(df.index, df["Close"], label="Closing Price", linewidth=1, color="blue")
+            ax.plot(df.index, df["AdjClose"], label="Closing Price", linewidth=1, color="blue")
             ax.plot(df.index, df["High"], label="High Price", linewidth=1, color="green")
             ax.plot(df.index, df["Low"], label="Low Price", linewidth=1, color="red")
             ax.set_title(f"{selected_stock} Stock Prices")
