@@ -38,8 +38,10 @@ if st.button("Fetch Data"):
             ax.plot(df.index, df["Close"], label="Closing Price", linewidth=1, color="blue")
             ax.plot(df.index, df["High"], label="High Price", linewidth=1, color="green")
             ax.plot(df.index, df["Low"], label="Low Price", linewidth=1, color="red")
+            if "Adj Close" in df.columns:
             ax.plot(df.index, df["Adj Close"], label="Adjusted Close", linewidth=1, color="purple")
-            ax.set_title(f"{selected_stock} Stock Prices")
+            else:
+            st.warning("'Adjusted Close' data is not available.")
             ax.set_xlabel("Date")
             ax.set_ylabel("Price (USD)")
             ax.legend()
