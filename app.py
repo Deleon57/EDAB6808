@@ -20,7 +20,7 @@ st.title("Stock Time Series Visualization")
 # Select a stock
 selected_stock = st.selectbox("Choose a stock:", list(STOCKS.keys()))
 
-# Select date range
+# Select date range 
 start_date = st.date_input("Start Date")
 end_date = st.date_input("End Date")
 
