@@ -6,9 +6,12 @@ from io import BytesIO
 
 # Dictionary of stock symbols
 STOCKS = {
-    "Alphabet (GOOGL)": "GOOGL",
-    "Nvidia (NVDA)": "NVDA",
-    "Microsoft (MSFT)": "MSFT"
+    "ZAR/ USD (ZARUSD=X)": "ZARUSD=X",
+    "ZAR/ AUD (ZARAUD=X)": "ZARAUD=X",
+    "ZAR/ GBD (ZARGBD=X)": "ZARGBD=X"
+    "ZAR/ EUR (ZAREUR=X)": "ZAREUR=X"
+    "ZAR/ EUR (ZAREUR=X)": "ZAREUR=X"
+    "ZAR/ HKD (ZARHKD=X)": "ZARHKD=X"
 }
 
 # Streamlit UI
