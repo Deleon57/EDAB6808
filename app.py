@@ -11,7 +11,7 @@ STOCKS = {
     "ZAR/ GBP (ZARGBP=X)": "ZARGBP=X",
     "ZAR/ EUR (ZAREUR=X)": "ZAREUR=X",
     "ZAR/ EUR (ZAREUR=X)": "ZAREUR=X",
-    "All share (^J200)": "^J200"
+    "All share (^J200.JO)": "^J200.JO"
 }
 
 # Streamlit UI
