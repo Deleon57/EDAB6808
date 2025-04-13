@@ -12,6 +12,7 @@ STOCKS = {
     "ZAR/ EUR (ZAREUR=X)": "ZAREUR=X",
     "ZAR/ EUR (ZAREUR=X)": "ZAREUR=X",
     "ZAR/ HKD (ZARHKD=X)": "ZARHKD=X"
+    "All share (^J200)": "^J200"
 }
 
 # Streamlit UI
